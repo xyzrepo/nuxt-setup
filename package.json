@@ -1,7 +1,7 @@
 {
-  "name": "@xyz/nuxt-setup",
+  "name": "nuxt-setup",
   "version": "0.0.0",
-  "description": "",
+  "description": "Nuxt Setup for XYZ Projects",
   "repository": "xyzrepo/nuxt-setup",
   "license": "MIT",
   "contributors": [
