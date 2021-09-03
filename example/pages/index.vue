@@ -3,13 +3,16 @@
     Works!
     <br>
     <b-field>
-        <b-input placeholder="Large"
-            size="is-large"
-            icon="address-card"
-            v-model="key">
-        </b-input>
+      <b-input
+        v-model="key"
+        placeholder="Large"
+        size="is-large"
+        icon="address-card"
+      />
     </b-field>
-    <b-message class="title">{{key}}</b-message>
+    <b-message class="title">
+      {{ key }}
+    </b-message>
   </div>
 </template>
 
@@ -22,7 +25,7 @@ export default {
   },
   watch: {
     $data: {
-      //immediate: true,
+      // immediate: true,
       deep: true,
       handler (newValue, oldValue) {
         this.saveState()

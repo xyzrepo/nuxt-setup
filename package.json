@@ -1,6 +1,6 @@
 {
-  "name": "nuxt-setup",
-  "version": "0.0.0",
+  "name": "@xyz/nuxt-setup",
+  "version": "0.0.1",
   "description": "Nuxt Setup for XYZ Projects",
   "repository": "xyzrepo/nuxt-setup",
   "license": "MIT",
@@ -28,7 +28,7 @@
     "@nuxtjs/fontawesome": "^1.1.2",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/strapi": "^0.3.1",
-    "@xyz/persist": "^0.0.1",
+    "@xyz/persist": "^0.0.3",
     "nuxt-buefy": "^0.4.8"
   },
   "devDependencies": {
