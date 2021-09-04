@@ -18,22 +18,23 @@
 
 <script>
 export default {
+  persist: true,
   data () {
     return {
       key: 'value'
     }
-  },
-  watch: {
-    $data: {
-      // immediate: true,
-      deep: true,
-      handler (newValue, oldValue) {
-        this.saveState()
-      }
-    }
-  },
-  mounted () {
-    this.restoreState()
   }
+  // watch: {
+  //   $data: {
+  //     // immediate: true,
+  //     deep: true,
+  //     handler (newValue, oldValue) {
+  //       this.saveState()
+  //     }
+  //   }
+  // },
+  // mounted () {
+  //   this.restoreState()
+  // }
 }
 </script>
