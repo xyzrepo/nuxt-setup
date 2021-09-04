@@ -20,16 +20,17 @@
     "test": "yarn lint && jest"
   },
   "dependencies": {
+    "vue": "^2.6.14",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-regular-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/vue-fontawesome": "^2.0.2",
     "@nuxtjs/fontawesome": "^1.1.2",
+    "nuxt-buefy": "^0.4.8",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/strapi": "^0.3.1",
-    "@xyz/persist": "^0.0.3",
-    "nuxt-buefy": "^0.4.8"
+    "@xyz/persist": "^0.0.3"
   },
   "devDependencies": {
     "@babel/core": "latest",
